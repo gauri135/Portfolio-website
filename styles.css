@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #001F3F;
+    color: #EAD8B1;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+
+main {
+    background-color: #6A9AB0;
+    display: flex;
+    justify-content: space-around;
+    height: 40rem;
+    padding: 10rem;
+}
+
+footer {
+    background-color: #001F3F;
+    height: 12rem;
+}
+
+.footer-end>p {
+    color: #FFF;
+}
+
+nav,
+main,
+footer {
+    width: 100%
+}
+
+nav>ul {
+    display: flex;
+    gap: 5rem;
+}
+
+nav>ul>a>li {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+nav>ul>a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.2rem;
+    transition: font-size 0.5s;
+}
+
+.nav-element:hover {
+    font-size: 1.8rem;
+}
+
+footer>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+footer>div>a>svg {
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+    margin-bottom: 1.2rem;
+
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main>img {
+    height: 400px;
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: 0 0 4rem #243642, inset 0 0 4rem #243642, 0 0 4rem #708997, inset 0 0 4rem #7fadc7, 0 0 4rem #387478, inset 0 0 4rem #243642;
+}
+
+.main-div {
+    padding: 1rem;
+}
+
+.main-div>.title {
+    margin-left: 7rem;
+    margin-right: 1rem;
+    font-size: 4rem;
+    color: #001F3F;
+    white-space: nowrap;
+}
+
+.main-div>.describe {
+    font-size: 1.2rem;
+    color: #EAD8B1;
+    max-width: 70rem;
+    margin: 5px 0 0 120px;
+    line-height: 1.8rem;
+    font-family: "Poppins", sans-serif;
+    padding-top: 1rem;
+}
+
+.main-div>h1 {
+    font-family: "Poppins", sans-serif;
+    color: #EAD8B1;
+    font-size: 1.4rem;
+    margin-left: 7.5rem;
+}
+
+.main-div>h1>span {
+    color: #001F3F;
+}
+
+.main-div>a>button {
+    margin-top: 3rem;
+    border: .1rem solid #387478;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 1.1rem;
+}
+
+.main-div>a>.btn-hire {
+    margin-left: 7.5rem;
+    color: #EAD8B1;
+    background-color: #001F3F;
+}
+
+.main-div>a {
+    text-decoration: none;
+}
+
+.main-div>a>.btn-hire:hover {
+    background-color: transparent;
+    color: #001F3F;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.main-div>a>.btn-project {
+    background-color: transparent;
+    color: #001F3F;
+}
+
+.main-div>a>.btn-project:hover {
+    background-color: #001F3F;
+    color: #EAD8B1
+}
+
+#work-Experice {
+    background-color: #6A9AB0;
+    height: 60rem;
+    padding-top: 7em;
+}
+
+#work-Experice>h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #001F3F;
+    filter: drop-shadow(1rem 1rem 1rem white);
+    padding-top: 1rem;
+}
+
+.ex-div {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.experience-card {
+    max-width: 350px;
+    padding: 25px;
+    margin: 2.5rem;
+    background-color: transparent;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-bottom: 1px solid #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+
+.experience-card:hover {
+    border-bottom: 3px solid #001F3F;
+}
+
+.experience-card>h3 {
+    padding-bottom: 2rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.experience-card>.year3 {
+    padding-left: 3rem;
+    font-size: small;
+    font-style: italic;
+}
+
+.experience-card>.year2 {
+    padding-left: 2rem;
+    font-size: small;
+    font-style: italic;
+}
+
+.experience-card>.year1 {
+    padding-left: 6rem;
+    font-size: small;
+    font-style: italic;
+}
+
+.experience-card>p {
+    padding-top: 2rem;
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.experience-card>span {
+    font-size: span;
+    font-size: small;
+    font-style: italic;
+    color: #ffffff;
+}
+
+#contact {
+    background-color: #6A9AB0;
+    height: 45rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+h1 {
+    color: #001F3F;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+#outer {
+    text-align: center;
+    margin: 15rem;
+    margin-left: 27rem;
+    margin-top: 10rem;
+    border: 1px solid white;
+    width: 30rem;
+    height: 20rem;
+    padding-bottom: 2rem;
+}
+
+#inner {
+    padding: 4rem;
+}
+
+input {
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+
+}
+
+button {
+    background-color: #001F3F;
+    margin: 1rem;
+    border-radius: 2px;
+    padding: 7px;
+    color: #FFF;
+}
+
+button:hover {
+    background-color: rgb(220, 206, 206);
+    color: #000;
+    cursor: pointer;
+
+}
+
+.Info {
+    border-bottom: 0.5px solid whitesmoke;
+
+}
+
+#education {
+    background-color: #6A9AB0;
+    height: 35rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+#education>h2 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    color: #001F3F;
+    filter: drop-shadow(1rem 1rem 0.7rem white);
+
+
+}
+
+.education-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.education-item {
+    text-align: center;
+    box-shadow: 0.5rem 0.5rem 1rem black;
+    height: 7rem;
+    width: 20rem;
+    border-radius: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.education-item>h3 {
+    padding-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: larger;
+}
+
+.education-item>p {
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: small;
+    color: #ffffff;
+    padding-top: 1rem;
+
+
+}
+
+#master {
+    margin-bottom: 2rem;
+}
+
+#education>h3 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: larger
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+i {
+    font-size: 2rem;
+    color: black;
+    margin-right: 10px;
+}
+
+#projects {
+    background-color: #6A9AB0;
+    padding: 2rem 0;
+}
+
+.projects-container {
+    height: 35rem;
+    padding: 6rem;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #001F3F;
+    filter: drop-shadow(1rem 1rem 1rem white);
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+    /* min 300px */
+    gap: 1.5rem;
+}
+
+.project-card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-0.3125rem);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+    width: 100%;
+    height: 12.5rem;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 1rem;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
+    color: black
+}
+
+.project-description {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+    color: #001F3F;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.project-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #001F3F;
+    font-weight: bold;
+    border: 1px solid #001F3F;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #001F3F;
+    color: #ffffff;
+}
+
